@@ -6,12 +6,42 @@
   grid-gap: 20px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1824px) {
   .cards{
-    width: 50vw;
+    width: 85vw;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 2fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+  }
+}
+
+@media (max-width: 1224px) {
+  .cards{
+    width: 75vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 10px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .cards{
+    width: 55vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cards{
+    width: 75vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
     grid-gap: 10px;
   }
 }
